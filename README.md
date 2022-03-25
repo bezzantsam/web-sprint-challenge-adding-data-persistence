@@ -9,9 +9,10 @@ This is an individual assessment. All work must be your own. All projects will b
 You are not allowed to collaborate during the sprint challenge.
 
 ## Project Set Up
+delete package lock and node modules, uninstall knex, uninstall sqlite version from json, delete packagelock again, npm i, npm i knex@0.95.15, npm i sqlite3
 
-- [ ] Run `npm install` to install your dependencies.
-- [ ] Run tests locally executing `npm test`.
+- [ x] Run `npm install` to install your dependencies.
+- [ x] Run tests locally executing `npm test`.
 
 ## Project Instructions
 
