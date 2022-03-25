@@ -112,6 +112,12 @@ Build an API inside the `api` folder with endpoints for:
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+SQL effectively is the dominant query language for relational databases. I suppose SQL is the method and language for interacting with a relational database which is a type of database.
 2. Why do tables need a Primary Key?
+ 
+ Primary keys are for making rows accessible for interaction with other rows. It is a unique key to each table.
 3. What is the name given to a table column that references the Primary Key on another table?
-4. What do we need in order to have a _many to many_ relationship between two tables?
+
+Foreign key  constraints
+
+4. What do we need in order to have a _many to many_ relationship between two tables? A parent row in one table that contains child rows in several others. A junction table bridges many tables together by referencing the primary keys of each table. We need multiple records in one table to b associated to multiple records in another table.
